@@ -65,7 +65,7 @@ vSy[0] = -0.0026179363 # Sun initial y-velocity (AU/year)
 pSy = -0.0026179363 #Sun initial y-momentum (Solar Mass*AU/year) - Used to find v0y-sun
 
 
-Xcm = (xS[0]*mS+xE[0]*mE+xJ[0]*mJ)/(mS+mE+mJ)
+Xcm = (xS[0]*mS+xE[0]*mE+xJ[0]*mJ)/(mS+mE+mJ) #0.0 AU
 G = 4*np.pi**2 # Gravitational constant (AU^3/(mS*year^2))
 
 for i in range(N-1):
